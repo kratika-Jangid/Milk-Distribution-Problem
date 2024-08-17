@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+    <script defer src="../js/addone.js"></script>
+</head>
+
+<body style="background-color: rgba(255, 217, 0, 0.589);">
+
+
+    <h1 style="text-align: center; background-color: aquamarine;" id="i2">MILK DISTRIBUTION PROBLEM</h1>
+    <br>
+    <div style="text-align: center; align-items: center; ">
+        <iframe width="500" height="400" frameborder="0" src="https://www.bing.com/maps/embed?h=400&w=500&cp=23.905862675068434~71.1286698160766&lvl=5&typ=d&sty=r&src=SHELL&FORM=MBEDV8" scrolling="no">
+        </iframe>
+        <div style="text-align: center; align-items: center; white-space: nowrap; text-align: center; width: 500px; padding: 6px 0;">
+            <a style="text-align: center; align-items: center; margin-left: 780px;" id="largeMapLink" target="_blank" href="https://www.bing.com/maps?cp=23.905862675068434~71.1286698160766&amp;sty=r&amp;lvl=5&amp;FORM=MBEDLD">View Larger Map</a> &nbsp;
+            | &nbsp;
+            <a style="text-align: center; align-items: center; " id="dirMapLink" target="_blank" href="https://www.bing.com/maps/directions?cp=23.905862675068434~71.1286698160766&amp;sty=r&amp;lvl=5&amp;rtp=~pos.23.905862675068434_71.1286698160766____&amp;FORM=MBEDLD">Get Directions</a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <div style="text-align: center; align-items: center; ">
+
+        <h5>ENTER THE NUMBER OF CUMTOMERS INCLUDING YOUR POSITION</h5>
+        <input id="numInp" name="customers">
+        <button id="custBut">SUBMIT</button>
+    </div>
+    <br>
+    <div id="custDiv" style="text-align: center; align-items: center; ">
+
+    </div>
+    <br><br>
+    <div id="distDiv" style="text-align: center; align-items: center; ">
+
+    </div>
+    <br>
+    <br>
+    <footer style="padding-bottom: 0.5rem; padding-top: 0.5rem; position: sticky; bottom: 0px; background-color: bisque; " class="text-muted">
+        <div class="container">
+            <p class="float-right">
+                <a href="#i2">Back to top</a>
+            </p>
+            <p>YOU CAN USE GET DIRECTIONS FOR DISTANCES IN KM</p>
+        </div>
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="../js/jquery.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/cytoscape/3.9.4/cytoscape.min.js"></script>
+    <script defer src="../js/openedGraph.js"></script>
+    <link rel="stylesheet" href="../css/graphStyle.css">
+</head>
+
+<body style="background-color: rgba(173, 216, 230, 0.39)">
+
+    <h1 style="background-color: rgb(80, 205, 255); text-align: center;"><b>CURRENT CUSTOMERS GRAPHS</b></h1>
+    <br>
+    <div id="singleDiv" style="text-align: center; background-color: rgba(21, 255, 0, 0.466); border-radius: 44%; display: inline-block; margin-left: 500px; width: 850px;"><b>SINGLE MILK DISTRIBUTION</b></div>
+    <div id="factoryDiv" style="text-align: center; background-color: yellow;  border-radius: 44%; display: inline-block; margin-left: 700px; width: 400px;"><b>FACTORY MILK DISTRIBUTION</b></div>
+    <br><br>
+    <div id="cy"></div>
+    <br><br><br>
+    <button type="button" id="single" class="btn btn-primary " style="margin-left: 570px;">ACT AS SINGLE MILK MAN</button>
+    <button type="button" id="factory" class="btn btn-success" style="margin-left: 300px;">ACT AS A FACTORY</button>
+    <span style="margin-left: 620px;" id="spanStart">Enter your Starting position </span>
+    <input id="StartingInp">
+
+    <button style="margin-left: 80px;" id="butStart" type="button" class="btn btn-outline-primary">START</button>
+    <br><br>
+    <div><span style="margin-left: 600px;" id="spanSingle"><b>Live Path Traversing (click done when you are on the last point) <b></span>
+
+        <button style="margin-left: 80px;" id="butDone" type="button" class="btn btn-outline-success">DONE</button>
+    </div>
+    <div id="spanPath" style="text-align: center;"></div>
+
+    <div id="doneWork" style="text-align: center; background-color: bisque;">CONGRATULATIONS, YOU ARE DONE WITH YOUR MILK DISTRIBUTION TO ALL THE CUSTOMERS</div>
+    <div id="dWork" style="text-align: center; background-color: orange;">NUMBER OF EMPLOYEES REQUIRED WILL BE EQUAL TO THE LEAF NODES</div>
+</body>
+
+</html>
