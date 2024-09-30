@@ -8,6 +8,12 @@ For single milkman we are using Floyd algorithm (TSP CAN ALSO BE A GOOD OPTION B
 ## Stack Used
 NodeJS, HTML, CSS, CYTOSCAPE(LIBRARY FOR GRAPHS), MySQL(DB) 
 
+
+
+https://github.com/user-attachments/assets/f10fd28e-986c-48f9-b9c7-877195c73129
+
+
+
 ![image](https://user-images.githubusercontent.com/71537601/121806585-12deeb00-cc6e-11eb-813b-311d2185eceb.png)
 
 ![image](https://user-images.githubusercontent.com/71537601/121806610-31dd7d00-cc6e-11eb-8759-7c14ba347c12.png)
